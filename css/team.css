@@ -1,0 +1,54 @@
+.memberRow, h2 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.memberRow {
+    margin-bottom: 30px;
+    width: 795px;
+    padding: 0;
+    text-align: center;
+}
+
+.member {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.member img {
+    height: 250px;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.member hr {
+    display: inline-block;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h4 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

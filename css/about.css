@@ -1,0 +1,27 @@
+#heliosVideo {
+    height: 450px;
+    width: 780px;
+    margin-top: 0;
+}
+
+blockquote {
+    margin-top: 20px;
+}
+
+blockquote, #heliosVideo, ol {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+ol {
+    margin-top: 15px;
+}
+
+#content {
+    margin-bottom: 30px;
+}

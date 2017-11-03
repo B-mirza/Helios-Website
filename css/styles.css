@@ -1,0 +1,227 @@
+body {
+	margin: 0px;
+	background-color: #fff9ed;
+	padding-bottom: 0;
+	font-family: "trebuchet ms", serif;
+	background-image: url("../img/shattered.png");
+}
+
+#navbar {
+	margin-top: 0px;
+	height: 70px;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f95b00+34,f47d3d+76 */
+	background: -moz-linear-gradient(90deg, rgba(255,18,18,1) 0%, rgba(255,18,18,1) 31%, rgba(212,36,36,1) 65%, rgba(212,36,36,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(212,36,36,1)), color-stop(35%, rgba(212,36,36,1)), color-stop(69%, rgba(255,18,18,1)), color-stop(100%, rgba(255,18,18,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(90deg, rgba(255,18,18,1) 0%, rgba(255,18,18,1) 31%, rgba(212,36,36,1) 65%, rgba(212,36,36,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(90deg, rgba(255,18,18,1) 0%, rgba(255,18,18,1) 31%, rgba(212,36,36,1) 65%, rgba(212,36,36,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(90deg, rgba(255,18,18,1) 0%, rgba(255,18,18,1) 31%, rgba(212,36,36,1) 65%, rgba(212,36,36,1) 100%); /* ie10+ */
+	background: linear-gradient(0deg, rgba(255,18,18,1) 0%, rgba(255,18,18,1) 31%, rgba(212,36,36,1) 65%, rgba(212,36,36,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D42424', endColorstr='#FF1212',GradientType=0 ); /* ie6-9 */
+	overflow: hidden;
+}
+
+#navbar ul {
+	margin: 20px 8% 30px 15px;
+}
+
+#navbar li {
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	list-style: none;
+	display: block;
+	float: right;
+	margin-left: 3%;
+	padding-bottom: 5px;
+}
+
+#navbar li:hover, #selected {
+	border-bottom: solid;
+	border-color: white;
+	border-width: 3px;
+	cursor: pointer;
+}
+
+#fbicon {
+	background-image: url("../img/fb.jpg");
+	height: 30px;
+	width: 30px;
+	margin-top: 16px;
+	margin-right: 2%;
+	margin-left: 3%;
+	float: right;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	border-style: ridge;
+	border-width: 1px;
+	border-color: white;
+}
+
+#fbicon:hover {
+	background-position: 0px -31px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	cursor: pointer;
+}
+
+#logo {
+	position: absolute;
+	left: calc((100% - 900px) / 2);
+	top: 0px;
+	height: 120px;
+	width: 200px;
+	background-color: white;
+	border-style: outset;
+	border-top: none;
+	border-width: 3px;
+	border-color: white;
+	z-index: 1;
+}
+
+#logo img {
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	background-color: white; 
+	box-shadow: 0px 10px 25px 4px grey;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	padding: 0;	
+}
+
+#content {
+	min-height: 85vh;
+	overflow: hidden;
+	padding: 0;
+}
+
+#myCarousel {
+	width: 100%;
+	height: 450px;
+}
+
+.carousel-inner {
+	height: 450px;
+	width: 100%;
+}
+
+
+.item img { 
+	/*force carousel images to fit*/
+	max-height: 450px;
+	min-height: 450px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.animated {
+   -webkit-animation-duration: 5s;
+   animation-duration: 5s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+.fadeIn {
+   -webkit-animation-name: fadeIn;
+   animation-name: fadeIn;
+}
+
+footer {
+	height: 100px;
+	position: relative;
+
+	background-color: #353535;
+	box-shadow: 0px 5px 25px 4px grey;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+footer ul {
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+footer li {
+	list-style: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+footer img {
+	height: 20px;
+	width: 20px
+}
+
+footer p {
+	font-size: 12px;
+	margin: 0;
+}
+
+footer li:hover, footer img:hover {
+	cursor: pointer;
+}
+
+a, a:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+h1 {
+	margin-top: 80px;
+	font-weight: bold;
+	color: black;
+}
+
+hr {
+   margin-top: 0;
+   height: 12px;
+   border: 0;
+   box-shadow: inset 0 12px 10px -12px rgba(0, 0, 0, 0.5);
+}
+
+p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 2px;
+}
+
+p, ol {
+	font-size: 18px;
+}
+
+blockquote {
+	margin-top: 40px;
+	font-family: "Lucidia Sans Unicode", "Constantia", sans-serif;
+	font-style: italic;	
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h1, hr {
+	margin-left: 60px;
+	margin-right: 60px;
+}

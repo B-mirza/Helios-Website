@@ -1,0 +1,92 @@
+#aboutSection {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#aboutSection p {
+    margin-top: 15px;
+    font-size: 20px;
+    clear: both;
+}
+
+#aboutSection a {
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#goalOne, #goalTwo {
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#goalOne p, #goalTwo p {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#goalOne {
+    float: left;
+    margin-left: 120px;
+}
+
+#goalTwo {
+    float: right;
+    margin-right: 120px;
+}
+
+#goalOne img {
+    height: 150px;
+    width: 160px;
+}
+
+#goalTwo img {
+    height: 150px;
+    width: 150px;
+}
+
+#verticalRule {
+    height: 250px;
+    border-left: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.carousel-caption {
+    display: block;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+}
+
+.carousel-caption h1, .carousel-caption h2 {
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 500px;
+}
+.carousel-caption h1 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6); 
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.carousel-caption h2 {
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+    margin-left: 25px;
+}
+
+#aboutSection h2 {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
