@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Project Helios</title>
+
+		<!-- Website favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+		
+		<!-- Bootstrap stylesheet -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- Website stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+
+	<body> 
+		<!-- Navigation bar -->
+		<div id="navbar">	
+			<a href="https://www.facebook.com/HeliosUW">
+				<div id="fbicon"></div>
+			</a>
+			<ul>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="about.html">About</a></li>
+				<li id="selected"><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+
+
+		<!-- Logo Container-->
+		<div id="logo">
+			<a href="index.html"><img src="img/logo.jpg" alt="Helio Logo" class="animated fadeIn"></a>
+		</div>
+
+		<!-- Page body -->
+		<div id="container">
+			<div id="content">
+
+				<!-- Image Carousel -->
+			   <div id="myCarousel" class="carousel slide">
+
+			      <ol class="indciators carousel-indicators">
+			        <li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
+			        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+			        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+			      </ol>
+
+			    <div class="carousel-inner">
+					<div class="item active">
+						<a href="about.html">
+							<img src="img/Helios_Team.jpg" alt="sunrise" class="img-responsive car-image" style="margin: auto;">
+							<div class="carousel-caption">
+									<h1>The Helios Mission</h1>
+									<h2>Read about our goals</h2>
+							</div>
+						</a>
+					</div>
+							
+			        <div class="item">
+						<a href="https://www.youtube.com/watch?v=v3IhcmoPCrw&feature=share">
+							<img src="img/promo.JPG" alt="sunrise" class="img-responsive car-image" style="margin: auto;">
+							<div class="carousel-caption">
+									<h1>Helios Launches Promo Video</h1>
+									<h2>Click to watch</h2>
+							</div>
+						</a>
+			        </div>
+
+			        <div class="item">
+						<a href="https://badgerherald.com/news/2017/10/16/panel-of-experts-discuss-madisons-clean-energy-initiative/">
+							<img src="img/badger_herald.jpg" alt="sunrise" class="img-responsive car-image" style="margin: auto;">
+						</a>
+						<div class="carousel-caption">
+								<h1>Expert panel discuss Madison’s clean energy initiative</h1>
+								<h2>Click to read on the Badger Herald</h2>
+						</div>
+			        </div>
+			      </div>
+			      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+			        <span class="icon-prev "></span>
+			      </a>
+
+			      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+			        <span class="icon-next"></span>
+			      </a>  
+				 </div>
+				 
+				 <div id="aboutSection">
+						<h2>About Helios</h2>
+						<p>Helios is a student organization at the University of Wisconsin that is committed to sustainability.
+							 Our efforts are focused on two main goals:
+						</p>
+
+						<div id="goalOne">
+							<img src="img/sustainability_icon.png" alt="sustainability icon">
+							<p>Using renewable energy to make our campus more sustainable</p>
+						</div>
+
+						<div id="verticalRule"></div>
+
+						<div id="goalTwo">
+							<img src="img/involvement_icon.png" alt="involvement icon">
+							<p>Boosting student involvement in sustainability initiatives</p>
+						</div>
+
+						<p><a href="about.html">Read More</a></p>
+				 </div>
+			 </div>
+
+	   	<footer>
+		   	<a href="https://www.facebook.com/HeliosUW">
+		   		<img src="img/footerfbicon.png" alt="fb icon">
+		   	</a>
+		   	<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+		   	</ul>
+		   	<p>&copy Helios. All rights reserved.</p>
+		  </footer>
+		</div>
+
+	 	<!-- Carousel Scripts (Included at bottom for faster loading) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>$('#myCarousel').carousel({ interval: 5000 })</script>
+	</body>
+</html>
