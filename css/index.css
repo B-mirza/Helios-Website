@@ -90,3 +90,114 @@
     font-weight: bold;
     color: black;
 }
+
+@media screen and (max-width: 640px) {
+    #logo{
+        margin-left: 0;
+    }
+    #navbar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #content{
+        width: 100%;
+    }
+    #mycarousel{
+        width: 100%;
+    }
+    #aboutSection {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        /* overflow: hidden; */
+    }
+    
+    #aboutSection p {
+        margin-top: 15px;
+        font-size: 20px;
+        clear: both;
+    }
+    
+    #aboutSection a {
+        font-size: 16px;
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    #goalOne, #goalTwo {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    #goalOne p, #goalTwo p {
+        float: center;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    #goalOne {
+        width: 100%;
+        float: center;
+        margin: 0 auto;
+    }
+    
+    #goalTwo {
+        width: 100%;
+        float: center;
+        margin: 0 auto;
+    }
+    
+    #goalOne img {
+        float: center;
+        height: 150px;
+        width: 150px;
+    }
+    
+    #goalTwo img {
+        float: center;
+        height: 150px;
+        width: 150px;
+    }
+    
+    #verticalRule {
+        display: none;
+    }
+    
+    .carousel-caption {
+        display: block;
+        position: absolute;
+        left: 100px;
+        overflow: hidden;
+    }
+    
+    .carousel-caption h1, .carousel-caption h2 {
+        display: inline-block;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-width: 500px;
+    }
+    .carousel-caption h1 {
+        color: black;
+        background-color: rgba(255, 255, 255, 0.6); 
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 28px;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: 0;
+        margin-left: 25px;
+    }
+    
+    #aboutSection h2 {
+        display: block;
+        font-weight: bold;
+        color: black;
+    }
+}
