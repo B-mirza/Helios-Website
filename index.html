@@ -7,20 +7,25 @@
 
 		<title>Project Helios</title>
 
-		<!-- Website favicon -->
+		<!-- Website Favicon -->
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 		
-		<!-- Bootstrap stylesheet -->
+		<!-- Bootstrap Stylesheet -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 
-		<!-- Website stylesheets -->
+		<!-- Website Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+		<!-- Website Scripts -->
+		<script src="js/menu.js"></script>
 	</head>
 
 	<body> 
-		<!-- Navigation bar -->
+		<!-- Desktop Navigation Bar -->
 		<div id="navbar">	
+			<img id="menuIcon" src="img/menu_icon.png" alt="menu icon">
+
 			<a href="https://www.facebook.com/HeliosUW">
 				<div id="fbicon"></div>
 			</a>
@@ -32,13 +37,21 @@
 			</ul>
 		</div>
 
+		<!-- Mobile Navigation Bar -->
+		<div id="mobileMenu" class="sideNav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#" id="selected">Home</a>
+			<a href="#">About</a>
+			<a href="#">Team</a>
+			<a href="#">Contact</a>
+		</div>
 
 		<!-- Logo Container-->
 		<div id="logo">
 			<a href="index.html"><img src="img/logo.jpg" alt="Helio Logo" class="animated fadeIn"></a>
 		</div>
 
-		<!-- Page body -->
+		<!-- Page Body -->
 		<div id="container">
 			<div id="content">
 
@@ -114,15 +127,16 @@
 			 </div>
 
 	   	<footer>
-		   	<a href="https://www.facebook.com/HeliosUW">
-		   		<img src="img/footerfbicon.png" alt="fb icon">
-		   	</a>
 		   	<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="team.html">Team</a></li>
 					<li><a href="contact.html">Contact</a></li>
-		   	</ul>
+				</ul>
+				
+				<a href="https://www.facebook.com/HeliosUW">
+		   		<img src="img/footerfbicon.png" alt="fb icon">
+		   	</a>
 		   	<p>&copy Helios. All rights reserved.</p>
 		  </footer>
 		</div>
