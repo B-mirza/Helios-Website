@@ -1,3 +1,21 @@
+#myCarousel {
+	width: 100%;
+	height: 450px;
+}
+
+.carousel-inner {
+	height: 450px;
+	width: 100%;
+}
+
+.item img { 
+	/*force carousel images to fit*/
+	max-height: 450px;
+	min-height: 450px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
 #aboutSection {
     margin-top: 20px;
     text-align: center;
@@ -89,4 +107,30 @@
     display: block;
     font-weight: bold;
     color: black;
+}
+
+/*Styles for mobile-responsiveness*/
+@media screen and (max-width: 480px) {
+    #myCarousel {
+        display: none;
+    }
+
+    #verticalRule {
+        display: none;
+    }
+
+    #aboutSection p {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #aboutSection, #goalOne, #goalTwo {
+        width: 100%;
+        margin: 0;
+    }
+
+    #container {
+        padding-top: 20px;
+    }
 }
