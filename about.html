@@ -16,11 +16,16 @@
 		<!-- Website stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 		<link rel="stylesheet" type="text/css" href="css/about.css"/>
+
+		<!-- Website Scripts -->
+		<script src="js/menu.js"></script>
 	</head>
 
 	<body> 
-		<!-- Navigation bar -->
+		<!-- Desktop Navigation Bar -->
 		<div id="navbar">	
+			<img id="menuIcon" src="img/menu_icon.png" alt="menu icon">
+
 			<a href="https://www.facebook.com/HeliosUW">
 				<div id="fbicon"></div>
 			</a>
@@ -32,6 +37,24 @@
 			</ul>
 		</div>
 
+		<!-- Mobile Navigation Bar -->
+		<div id="mobileMenu" class="sideNav">
+			<a href="javascript:void(0)" id="closebtn">&times;</a>
+			<a href="index.html">Home</a>
+			<a href="about.html"  id="selected">About</a>
+			<a href="team.html">Team</a>
+			<a href="contact.html">Contact</a>
+
+			<div id="socialMediaIcons"> 
+				<a href="https://www.facebook.com/HeliosUW">
+					<img src="img/footerfbicon.png" alt="facebook icon">
+				</a>
+
+				<a href="https://www.linkedin.com/company/18267484/">
+					<img src="img/linkedin_icon.png" alt="linkedin icon">
+				</a>
+			</div>
+		</div>
 
 		<!-- Logo Container-->
 		<div id="logo">
@@ -63,18 +86,25 @@
 					campus in the entire United States.
 				</p>
 			</div>
-			<footer>
-			   	<a href="https://www.facebook.com/HeliosUW">
-			   		<img src="img/footerfbicon.png" alt="fb icon">
-			   	</a>
-			   	<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="team.html">Team</a></li>
-						<li><a href="contact.html">Contact</a></li>
-			   	</ul>
-			   	<p>&copy Helios. All rights reserved.</p>
-			</footer>
+
+			<!-- Page Footer -->
+	   	<footer>
+		   	<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+				<a href="https://www.facebook.com/HeliosUW">
+		   		<img src="img/footerfbicon.png" alt="fb icon">
+				</a>
+				
+				<a href="https://www.linkedin.com/company/18267484/">
+					<img src="img/linkedin_icon.png" alt="linkedin icon">
+				</a>
+		   	<p>&copy Helios. All rights reserved.</p>
+		  </footer>
 		</div>
 	</body>
 </html>
